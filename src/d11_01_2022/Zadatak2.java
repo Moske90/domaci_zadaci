@@ -12,7 +12,7 @@ public class Zadatak2 {
 		klima1.mod = "Grejanje";
 		klima1.stampaj();
 
-		int mesecnaPotrosnja = klima1.mesecnaPotrosnja(klima1);
+		int mesecnaPotrosnja = klima1.mesecnaPotrosnja();
 		System.out.println("Mesecna potrosnja je: " + mesecnaPotrosnja + "kw/h");
 
 		int mesecniTroskovi = klima1.mesecniTroskovi(351);

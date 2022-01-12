@@ -15,7 +15,7 @@ public class SmartAirConditioning {
 	}
 
 	// nisam siguran da sam ukapirao ovu metodu, to jest sta se trazi
-	public int mesecnaPotrosnja(SmartAirConditioning mod) {
+	public int mesecnaPotrosnja() {
 		int mesecnaPotrosnja;
 		if (this.mod.equals("Hladjenje")) {
 			mesecnaPotrosnja = 30 * 15 * this.potrosnjaDokHladi;
