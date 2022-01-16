@@ -12,7 +12,7 @@ public class Zadatak3 {
 		objava1.brojDeljenja = 0;
 		objava1.dislike();
 		objava1.share();
-		objava1.pring();
+		objava1.print();
 
 		System.out.println();
 
@@ -25,7 +25,7 @@ public class Zadatak3 {
 		objava2.like();
 		objava2.like();
 		objava2.share();
-		objava2.pring();
+		objava2.print();
 
 	}
 

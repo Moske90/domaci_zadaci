@@ -22,7 +22,7 @@ public class FacebookPost {
 		this.brojDeljenja = this.brojDeljenja + 1;
 	}
 
-	public void pring() {
+	public void print() {
 		System.out.println(this.imeIPrezime + " >>> " + this.cijiJeProfil);
 		System.out.println(this.tekstObjave);
 		System.out.println("Likes " + this.brojLajkova + " | Shares " + this.brojDeljenja);
